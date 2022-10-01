@@ -22,7 +22,6 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
 
-    
     @GetMapping
     public List<Employee> getEmployee(){
         return employeeService.getEmployee();
@@ -32,11 +31,13 @@ public class EmployeeController {
     public void registerNewStudent(@RequestBody Employee employee){
         employeeService.addNewEmployee(employee);
     }
+    
     @DeleteMapping(path = "{employeeId}")
     public void deleteStudent(
             @PathVariable("employeeId") Long employeeId){
         employeeService.deleteEmployee(employeeId);
     }
+    
     @PutMapping(path = "{employeeId}")
     public void updateStudent(
             @PathVariable("employeeId") Long employeeId,
@@ -44,7 +45,6 @@ public class EmployeeController {
             @RequestParam(required = false) String email){
             employeeService.updateEmployee(employeeId,name,email);
      }
-
 
 }
 
