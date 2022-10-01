@@ -16,11 +16,12 @@ import java.util.Optional;
 
 @Service
 public class EmployeeService {
-    //dependency injection - as instantiating from another class
+    
     private final EmployeeRepository employeeRepository;
 
     @Autowired
     public EmployeeService(EmployeeRepository employeeRepository){
+        //dependency injenction
         this.employeeRepository = employeeRepository;
     }
     public List<Employee> getEmployee(){
