@@ -17,5 +17,6 @@ Recommend using posgreSQL installed.
 Create database employee
 Grant all privileges on database “employee” to username
 Grant all privileges on database “employee” to postgresql
+Connect to database using IDE such as IntelliJ(recommended).
 
 
