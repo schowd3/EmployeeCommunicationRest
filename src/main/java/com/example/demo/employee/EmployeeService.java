@@ -52,7 +52,7 @@ public class EmployeeService {
        }
        employeeRepository.deleteById(employeeId);
     }
-
+    //Note: using Transactional because we do not need to write/implement any JPQL
     @Transactional
     public void updateEmployee(Long employeeId, String name, String email) {
         Employee employee = employeeRepository.findById(employeeId)
