@@ -8,6 +8,7 @@ Service layer: Contains Business logic
 
 Database Access Layer: Connecting to DB
 
+Run DemoApplication to run the server.
 
 Instruction for DB:
 Recommend using posgreSQL installed. 
