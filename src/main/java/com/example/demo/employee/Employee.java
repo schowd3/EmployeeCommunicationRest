@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.Period;
 
 /**
- * Employee object with all the attributes.
+ * Employee object with all the attributes. Attempt without Lombok.
  */
 
 @Entity
@@ -37,7 +37,7 @@ public class Employee {
         this.dob = dob;
         this.email = email;
     }
-    //DATABASE WILL GENERATE ID
+    
     public Employee(String name,  LocalDate dob, String email) {
         this.name = name;
         this.dob = dob;
