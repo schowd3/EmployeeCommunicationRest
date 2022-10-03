@@ -8,11 +8,11 @@ Service layer: Contains Business logic
 
 Database Access Layer: Connecting to DB
 
-#How to Run
+# How to Run
 Run DemoApplication to start the server.
 Listen http://localhost:8080/api/v1/employee.
 
-#Instruction for DB:
+# Instruction for DB:
 Create a database employee.
 Grant all privileges on database “employee” to username
 Grant all privileges on database “employee” to postgresql(recomended).
