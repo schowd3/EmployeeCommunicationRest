@@ -13,9 +13,9 @@ Run DemoApplication to start the server.
 Listen http://localhost:8080/api/v1/employee.
 
 # Instruction for DB:
-Create a database employee.
-Grant all privileges on database “employee” to username
-Grant all privileges on database “employee” to postgresql(recomended).
-Connect to database using IDE such as IntelliJ(recommended).
+- Create a database employee.
+- Grant all privileges on database “employee” to username
+- Grant all privileges on database “employee” to postgresql(recomended).
+- (Optional)Connect to database using an IDE such as IntelliJ(recommended).
 
 
