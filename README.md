@@ -1,16 +1,16 @@
 # EmployeeRestCommunication
 
-This app shows the communication between the different three core layers.
+- This app shows the communication between the different three core layers.
 
-API Layer: Contains the resources for our API.
+- API Layer: Contains the resources for our API.
 
-Service layer: Contains Business logic
+- Service layer: Contains Business logic
 
-Database Access Layer: Connecting to DB
+- Database Access Layer: Connecting to DB
 
 # How to Run
-Run DemoApplication to start the server.
-Listen http://localhost:8080/api/v1/employee.
+- Run DemoApplication to start the server.
+- Listen on http://localhost:8080/api/v1/employee.
 
 # Instruction for DB:
 - Create a database employee.
