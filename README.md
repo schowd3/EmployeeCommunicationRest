@@ -8,15 +8,14 @@ Service layer: Contains Business logic
 
 Database Access Layer: Connecting to DB
 
-Run DemoApplication to run the server.
-Visit http://localhost:8080/api/v1/employee to access all the data in json.
+#How to Run
+Run DemoApplication to start the server.
+Listen http://localhost:8080/api/v1/employee.
 
-Instruction for DB:
-Recommend using posgreSQL installed. 
-
-Create database employee
+#Instruction for DB:
+Create a database employee.
 Grant all privileges on database “employee” to username
-Grant all privileges on database “employee” to postgresql
+Grant all privileges on database “employee” to postgresql(recomended).
 Connect to database using IDE such as IntelliJ(recommended).
 
 
